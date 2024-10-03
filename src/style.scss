@@ -1,0 +1,18 @@
+$primary-color: #4CAF50;
+$font-stack: 'Roboto', sans-serif;
+
+body {
+  font-family: $font-stack;
+  color: $primary-color;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
