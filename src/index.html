@@ -4,11 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Webpack Project</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.scss">
 </head>
 <body>
-<h1>Hello Webpack</h1>
-<img src="./images/logo1.png" alt="Logo">
-<script src="bundle.js"></script>
+<div class="container">
+  <header class="header">
+    <h1>Welcome to My Webpack Project</h1>
+  </header>
+  <main>
+    <section class="intro">
+      <h2>About This Project</h2>
+      <p>This project demonstrates a simple Webpack setup with SCSS for styling and TypeScript for scripting.</p>
+    </section>
+    <section class="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Modular Webpack configuration</li>
+        <li>SCSS for styling</li>
+        <li>TypeScript for development</li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2024 My Webpack Project</p>
+  </footer>
+</div>
 </body>
 </html>
